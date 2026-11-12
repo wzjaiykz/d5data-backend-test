@@ -1,0 +1,12 @@
+server:
+  port: 8080
+
+app:
+  jwt:
+    # Written-test secret only. In production it comes from the environment.
+    secret: d5data-backend-test-secret-key-change-me-0123456789
+    ttl-seconds: 1800
+
+logging:
+  level:
+    org.springframework.security: INFO
