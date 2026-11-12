@@ -1,5 +1,7 @@
 # d5data-backend-test
 
+[![CI](https://github.com/wzjaiykz/d5data-backend-test/actions/workflows/ci.yml/badge.svg)](https://github.com/wzjaiykz/d5data-backend-test/actions/workflows/ci.yml)
+
 Spring Boot 3.2.0 written test: a `Hello World` endpoint protected by Spring
 Security, plus a username/password login endpoint that returns a JWT.
 
